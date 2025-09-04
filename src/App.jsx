@@ -12,7 +12,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Category/>}></Route>
+          <Route path="categorymanagement/" element={<Category/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
