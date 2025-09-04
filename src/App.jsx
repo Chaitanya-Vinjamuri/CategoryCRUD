@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/categorymanagement">
         <Routes>
-          <Route path="categorymanagement/" element={<Category/>}></Route>
+          <Route path="/" element={<Category />} />
         </Routes>
       </BrowserRouter>
     </>
